@@ -1,1 +1,1 @@
-# rwat-test
+This is the readme file for the repository of rwat-test.
