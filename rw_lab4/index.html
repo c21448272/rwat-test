@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch Data Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Fetch and Process JSON Data</h1>
+    
+    <button onclick="loadSync()">Load Synchronously</button>
+    <button onclick="loadAsync()">Load Asynchronously</button>
+    <button onclick="loadFetch()">Load with Fetch</button>
+
+    <table id="data-table" border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>ID</th>
+            </tr>
+        </thead>
+        <tbody id="data-table-body"></tbody>
+    </table>
+
+    <p><a href="https://c21448272.github.io/rwat-test/index.html" target="_blank">View this page on GitHub Pages</a></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
